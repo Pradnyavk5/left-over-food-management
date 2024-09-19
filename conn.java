@@ -9,7 +9,7 @@ public class conn{
     public conn(){  
         try{  
             Class.forName("com.mysql.cj.jdbc.Driver");  
-            c =DriverManager.getConnection("jdbc:mysql:///food","root","Pass@18"); 
+            c =DriverManager.getConnection("jdbc:mysql:///food","root","Password"); 
             
             s =c.createStatement();  
             
